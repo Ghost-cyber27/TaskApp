@@ -6,10 +6,10 @@ import { Ionicons } from '@expo/vector-icons';
 export default function App() {
   // Mock data for our dashboard
   const [tasks, setTasks] = useState([
-    { id: '1', title: 'Design database schema', completed: true },
-    { id: '2', title: 'Create UI Wireframes', completed: false },
-    { id: '3', title: 'Setup CI/CD pipeline', completed: false },
-    { id: '4', title: 'Team sync meeting', completed: false },
+    { id: '1', title: 'Take out Trash', completed: true },
+    { id: '2', title: 'Walk 60 Minutes minimum', completed: false },
+    { id: '3', title: 'Read 10 pages', completed: false },
+    { id: '4', title: 'Write 500 words', completed: false },
   ]);
 
   // Calculate stats
