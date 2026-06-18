@@ -11,6 +11,8 @@ export default function App() {
     { id: '3', title: 'Read 10 pages', completed: false },
     { id: '4', title: 'Write 500 words', completed: false },
   ]);
+  const [token, setToken] = useState('ahaihhdohvhhalvahvaidvd');
+  const api_key = "kajljavlalvklakdnvd";
 
   // Calculate stats
   const totalTasks = tasks.length;
