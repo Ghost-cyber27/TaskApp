@@ -12,7 +12,7 @@ export default function App() {
     { id: '4', title: 'Write 500 words', completed: false },
   ]);
   const [token, setToken] = useState('ahaihhdohvhhalvahvaidvd');
-  const api_key = "kajljavlalvklakdnvd";
+  const OPENAI_API_KEY = "sk-xxxx"
 
   // Calculate stats
   const totalTasks = tasks.length;
